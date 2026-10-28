@@ -24,3 +24,46 @@ nav a {
 nav a:hover {
     text-decoration: underline;
 }
+
+/* Page headings */
+h2 {
+  color: #267346;
+  margin-top: 25px;
+}
+
+/* Main content sections */
+section {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  max-width: 900px;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Navigation links */
+nav a {
+  padding: 10px;
+}
+
+/* Mobile screen adjustments */
+@media (max-width: 600px) {
+  body {
+    margin: 10px;
+  }
+
+  nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  section {
+    padding: 15px;
+  }
+}
