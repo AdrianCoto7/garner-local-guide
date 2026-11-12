@@ -67,3 +67,8 @@ nav a {
     padding: 15px;
   }
 }
+nav a:focus-visible {
+    outline: 3px solid #267346;
+    outline-offset: 3px;
+    text-decoration: underline;
+}
